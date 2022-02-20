@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="header">
+      <h2>St. Micheals Health Care Employee Portal</h2>
+        <h3>Over Time Digital Sign Up Sheet</h3>
+      </div>
+  <title>St. Micheals Health Care Employee Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+
+  <body class="container">
+    <br>
+    <div class="card">
+      <div class="card-body">
+
+        
+        <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <label for="new-start-date">Start of Shift</label>
+              <input type ="date" class="form-control" id="start-of-shift">
+</div>
+</div>
+
+      <div class="col-sm">
+        <div class="form-group">
+          <label for="end-of-shift">End Of Shift</label>
+        <input type ="date" class="form-control" id="end-of-shift">
+        
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="col-sm">
+          <div class="form-group">
+            <label for="hours">Hours</label>
+          <input type ="hours" class="form-control" id="hours" placeholder="Hours worked">
+          
+          </div>
+        </div>
+    
+          <div class="row">
+            <div class="col-sm">
+              <div class="col-sm">
+                <div class="form-group">
+                  <label for="employee-id">Employee ID</label>
+                <input type ="employee-id" class="form-control" id="employee-id" placeholder="Employee ID">
+                
+                </div>
+              </div>
+        
+        
+          <button id="add" class="btn btn-primary from-control">Submit</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<table id="list" class="table table-striped table-dark">
+  
+  <tr>
+
+    <th>Hours Worked</th>
+    <th>Date Created</th>
+    <th>Start Of Shift</th>
+    <th>End of Shift</th>
+    <th>Employee ID#</th>
+    <th>Actions</th>
+
+  </tr>
+</table>
+ 
+
+    <script src="week4.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+
+  </body>
+</html>
